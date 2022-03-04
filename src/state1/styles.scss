@@ -1,0 +1,26 @@
+.container {
+    button {
+        padding: 0.6em;
+        cursor:pointer;
+        background-color: rgb(69, 42, 167);
+        border: none;
+        color: #fff;
+        border-radius: 4px;
+        margin: 0.5em;
+        font-size: 1.0rem;
+    }
+
+    .ativo {
+        background-color: rgb(182, 154, 228);
+        transition: 0.4s;
+    }
+
+    .inativo {
+        background-color: rgb(88, 19, 153);
+        transition: 0.4s;
+    }
+
+    p {
+        text-align: center;
+    }
+}
