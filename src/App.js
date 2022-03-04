@@ -1,10 +1,10 @@
 import './App.scss';
-import { StateOne } from './state1';
+import SecondState from './state2';
 
 function App() {
   return (
     <div className="intro">
-      <StateOne />
+      <SecondState />
     </div>
   );
 }
