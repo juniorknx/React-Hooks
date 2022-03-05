@@ -1,0 +1,20 @@
+.container {
+    button {
+        border: none;
+        border-radius: 3px;
+        padding: 0.7em;
+        background: purple;
+        transition: 0.5s;
+        color: #fff;
+    }
+
+    .invisible {
+        display: none;
+    }
+
+    .visible {
+        display: block;
+        margin-top: 0.9em;
+        transition: 0.5s;
+    }
+}

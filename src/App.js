@@ -1,10 +1,11 @@
 import './App.scss';
-import SecondState from './state2';
+import { ConditionalRender } from './Effect1';
+import { EstadoDois } from './state 3';
 
 function App() {
   return (
     <div className="intro">
-      <SecondState />
+      <ConditionalRender />
     </div>
   );
 }
